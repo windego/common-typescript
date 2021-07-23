@@ -1,0 +1,8 @@
+{
+  "name": "beautifier",
+  "version": "0.0.1",
+  "description": "wxml代码格式化工具",
+  "main": "index.js",
+  "author": "zhangweijie",
+  "license": "MIT"
+}
