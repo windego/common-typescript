@@ -5,7 +5,10 @@
   "main": "index.js",
   "author": "zhangweijie",
   "license": "MIT",
-  "repository": "https://github.com/windego/common-typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windego/common-typescript.git"
+  },
   "scripts": {
     "prepare": "husky install",
     "release": "standard-version&&git push",
