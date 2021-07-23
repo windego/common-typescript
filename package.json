@@ -1,6 +1,6 @@
 {
   "name": "common",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "TS项目通用代码",
   "main": "index.js",
   "author": "zhangweijie",
