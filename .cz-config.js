@@ -42,20 +42,18 @@ module.exports = {
     },
   ],
   scopes: [
-    "pages",
+    
+    "src",
+    "package",
+    "config",
+    "rootDir",
     "components",
-    "routes",
-    "dependencies",
     "assets",
     "utils",
     "service",
     "layouts",
     "public",
     "static",
-    "config",
-    "rootPath",
-
-    
   ],
   allowCustomScopes: true,
   skipQuestions: ["footer"],
