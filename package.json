@@ -4,5 +4,32 @@
   "description": "wxml代码格式化工具",
   "main": "index.js",
   "author": "zhangweijie",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.0",
+    "prettier": "^2.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
+    }
+  },
+  "lint-staged": {
+    "*.json": "prettier --write",
+    "*.{ts}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  }
 }
