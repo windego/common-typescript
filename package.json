@@ -8,7 +8,7 @@
   "repository": "https://github.com/windego/common-typescript",
   "scripts": {
     "prepare": "husky install",
-    "release": "standard-version&&vsce publish --no-yarn&&git push",
+    "release": "standard-version&&git push",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "lint": "eslint src --ext ts",
